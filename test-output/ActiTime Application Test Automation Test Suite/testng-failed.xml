@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ActiTime Application Test Automation Test Suite]">
+  <test thread-count="5" name="ActTime App Test Cases(failed)">
+    <classes>
+      <class name="com.actitime.qa.testcases.CustomerAndProjectPageTest">
+        <methods>
+          <include name="verifyCustomerAdd"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.actitime.qa.testcases.CustomerAndProjectPageTest -->
+    </classes>
+  </test> <!-- ActTime App Test Cases(failed) -->
+</suite> <!-- Failed suite [ActiTime Application Test Automation Test Suite] -->
